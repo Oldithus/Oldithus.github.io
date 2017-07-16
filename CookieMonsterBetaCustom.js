@@ -1273,7 +1273,7 @@ CM.Disp.CheckGoldenCookie = function() {
 			
 			CM.Disp.Flash(3);
 			CM.Disp.PlaySound(CM.Config.GCSoundURL);
-			CM.Disp.goldenShimmer.l.click();
+			//CM.Disp.goldenShimmer.l.click();
 		}
 		else if (CM.Config.GCTimer == 1) CM.Disp.GCTimer.style.display = 'none';
 	}
